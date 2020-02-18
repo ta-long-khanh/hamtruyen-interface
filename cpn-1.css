@@ -1,0 +1,66 @@
+.cpn-1 {
+    width: 120px;
+    height: 200px;
+    margin: 5px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    display: inline-block;
+}
+.cpn-1-content {
+    height: 162px;
+    position: relative;
+}
+.cpn-1-content a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.cpn-1-img {
+    height: 100%;
+    background-image: url(./dauladailuc.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid#ccc;
+    transition: all 0.3s;
+    display: block;
+}
+.cpn-1-overlay {
+    height: 25px;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.cpn-1-chapter {
+    height: 25px;
+    width: 105px;
+    position: absolute;
+    bottom: -1px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: white;
+    display: block;
+}
+.cpn-1-name {
+    max-height: 50px;
+    text-transform: capitalize;
+    margin: 5px 0px 10px 0px;
+    font-weight: 700;
+}
+.cpn-1-content .cpn-1-img:hover {
+    border: 1px solid orange;
+}
+.cpn-1-content .cpn-1-chapter:hover {
+    color: #ff0;
+}
+.cpn-1-name a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s;
+    font-size: 13px;
+    font-style: normal;
+}
+.cpn-1-name a:hover {
+    color: #de4fcc;
+}
