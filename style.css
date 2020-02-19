@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
 }
-.ctn {
+.header {
     height: 160px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@ body {
 }
 .div-1-1 {
     width: 80%;
-    margin-left: 35%;
+    margin-left: 25%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,31 +33,31 @@ body {
 .div-1-2 {
     width: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin-right: 20%;
+    margin-right: 17%;
 }
 .div-2-1 {
     width: 20%;
     position: relative;
-    margin-left: 20%;
+    margin-left: 17%;
 }
 .div-2-2 {
     width: 80%;
-    margin-right: 20%;
+    margin-right: 17%;
     margin-left: 70px;
 }
 .div-3-1 {
     list-style: none;
     width: 80%;
-    margin-left: 20%;
+    margin-left: 17%;
 }
 .div-3-2 {
     width: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin-right: 20%;
+    margin-right: 17%;
 }
 .logo {
     width: 100%;
@@ -118,6 +118,7 @@ input[type="text"]{
 .uper-case {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    color: white;
 }
 .upload-truyen-btn {
     padding: 8px 20px 10px 20px;
@@ -140,4 +141,62 @@ input[type="text"]{
 .menu-ngang a:hover {
     background-color: #000;
     color: #efefef;
+}
+.main-content {
+    margin: 0 17%;
+    height: 2000px;
+    background-color: #fff;
+    position: relative;
+}
+.content-left {
+    width: 680px;
+    min-height: 100px;
+    position: absolute;
+    left: 0;
+}
+.content-right {
+    width: 310px;
+}
+/* LABEL CONTENT */
+.content-left-label {
+    width: 670px;
+    height: 38px;
+    background-image: url(./logohong-dai.png);
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+}
+.menu-content {
+    width: 670px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0 0 0 90px;
+    display: flex;
+    line-height: 38px;
+}
+.menu-content li {
+    list-style: none;
+    flex-basis: 130px;
+    text-align: center;
+}
+.menu-content a {
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+.title-content {
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+}
+.wrapper-tophamtruyen {
+    position: absolute;
+    right: 0;
+    top: 1538px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }

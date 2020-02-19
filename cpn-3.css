@@ -1,5 +1,8 @@
 .top-cuong-gia {
     width: 300px;
+    position: absolute;
+    right: 0;
+    margin-top: 400px;
 }
 
 .cuonggia-label {
