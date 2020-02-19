@@ -1,0 +1,154 @@
+.top-cuong-gia {
+    width: 300px;
+}
+
+.cuonggia-label {
+    width: 300px;
+    height: 38px;
+    position: relative;
+}
+.cuonggia-label-anh {
+    background-image: url(logo-hong.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.cuonggia-label-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    padding-left: 30px;
+    line-height: 38px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.cuonggia-content {
+    width: 300px;
+    min-height: 300px;
+    
+}
+.list-cuonggia {
+    margin-top: 10px;
+    height: 100px;
+    position: relative;
+}
+.cuonggia-number {
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    line-height: 22px;
+}
+.cuonggia-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px ;
+}
+.nb-black {
+    text-align: center;
+    margin: 20px auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: block;
+    color: #333;
+    background: #eee;
+    font-weight: bold;
+}
+.nb-red {
+    text-align: center;
+    margin: 20px auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(247, 75, 75);
+    border-radius: 50%;
+    display: block;
+    color: red;
+    background: #ff0;
+}
+.cuonggia-avartar-tuvi {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+}
+.cg-avt {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.tieuviem {
+    width: 60px;
+    height: 60px;
+    background-image: url(anh/tieuviem.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.mty {
+    width: 60px;
+    height: 60px;
+    background-image: url(anh/masteryi.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.asta  {
+    width: 60px;
+    height: 60px;
+    background-image: url(anh/asta.jfif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.yasuo  {
+    width: 60px;
+    height: 60px;
+    background-image: url(anh/yasuo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.cg-tuvi {
+    width: 75px;
+    height: 40px;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.42857143;
+    color: #888;
+}
+.cuonggia-profile {
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 105px;
+}
+.cg-name {
+    width: 195px;
+    height: 20px;
+    padding-left: 10px;
+    word-wrap: break-word;
+    line-height: 1.42857143;
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.cg-fame {
+    padding-left: 10px;
+    width: 195px;
+    height: 80px;
+    word-wrap: break-word;
+    line-height: 1.42857143;
+    color: #888;
+}
