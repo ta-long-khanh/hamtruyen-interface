@@ -1,0 +1,107 @@
+.cpn-4 {
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cpn-4-babel {
+    position: relative;
+    width: 300px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+.cpn-4-babel-bg {
+    width: 300px;
+    height: 38px;
+    background-image: url(logo-xanh.png);
+    position: absolute;
+    bottom: 0;
+}
+.cpn-4-babel-txt {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    width: 300px;
+    height: 38px;
+    position: absolute;
+    bottom: 0;
+    line-height: 38px;
+    margin-left: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cpn-4-content {
+    font-size: 14px;
+    width: 290px;
+}
+.cpn-4-list {
+    width: 100%;
+    height: 35px;
+    background: #f5f5f5;
+    position: relative;
+}
+.no-bg{
+    background: #fff;
+}
+.cpn-4-text a {
+    color: #09c;
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.cpn-4-text {
+    position: absolute;
+    bottom: 0px;
+    width: 87%;
+    right: 0;
+}
+.nb {
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px 5px;
+}
+.nb-1{
+    background: #f25757;
+    color: white;
+}
+.nb-2{
+    background: #40c8b6;
+    color: white;
+}
+.nb-3{
+    background: #f2b657;
+    color: white;
+}
+.nb-4{
+    background: #de4fcc;
+    color: white;
+}
+.nb-5{
+    background: #7ce835;
+    color: white;
+}
+.nb-6{
+    background: #9e4ae6;
+    color: white;
+}
+.nb-7{
+    background: #ff6bec;
+    color: white;
+}
+.nb-8{
+    background: #78b3fc;
+    color: white;
+}
+.nb-9{
+    background: #ffab48;
+    color: white;
+}
+.nb-10{
+    background: #c3aa6e;
+    color: white;
+}
